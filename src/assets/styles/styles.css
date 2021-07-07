@@ -1,0 +1,81 @@
+/* Kanban Styling */
+.kanban-column {
+    min-height: 450px;
+}
+
+/* Button style for add tasks */
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+  
+/* Font Styling */
+.font-color{
+    color: #555555;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+/* Tasks List styling */
+.list-group-item:hover{
+    background-color:#F5F5F5;
+    transition: 0.3s;
+}
+
+.delete-circle {
+    margin-top: 0.281rem;
+    cursor: pointer;
+    color: grey;  
+}
+  
+.delete-circle:hover {
+    margin-top: 0.281rem;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Shadows */
+.shadow-box {
+    box-shadow: 0 0.20rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Borders */
+.rounded-corners {
+    border-radius: 20px !important;
+}
+
+/* Custom Background To Overwrite Stock Bootstrap */
+.bg-custom-red {
+    background-color: #FF595E !important;
+}
+  
+.bg-custom-orange {
+    background-color: #FFCA3A !important;
+}
+  
+.bg-custom-green {
+    background-color: #8AC926 !important;
+}
+  
+.bg-custom-blue {
+    background-color: #1982C4 !important;
+}
+  
+/* Media Stuff */
+@media (min-width: 1400px) {
+  
+    .container-lg {
+        max-width: 1450px !important;
+    }
+  
+    .kanban-column {
+        min-height: 600px !important;
+    }
+}
